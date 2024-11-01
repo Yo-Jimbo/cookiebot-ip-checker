@@ -27,7 +27,7 @@ This Python script checks for updates to the IP addresses used by Cookiebot’s 
 3. **Create the Configuration File**
    Create a secrets.json file in the same directory as the script. This file should contain:
 
-   '''javascript
+   ```json
    {
      "address": "sender.address@gmail.com",
      "password": "16-character password",
