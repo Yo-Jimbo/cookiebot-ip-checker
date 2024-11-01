@@ -36,11 +36,11 @@ This Python script checks for updates to the IP addresses used by Cookiebot’s 
    }
    ```
    where:  
-     address: The sender's email (Gmail).  
-     password: A 16-character app-specific password for the Gmail account. To create it, it is necessary to go to the sender's email address settings and enable two-step verification, following this link. A name for
+     **- address:** The sender's email (Gmail).  
+     **- password:** A 16-character app-specific password for the Gmail account. To create it, it is necessary to go to the sender's email address settings and enable two-step verification, following this link. A name for
      the app must be entered in the appropriate field (e.g., “Cookiebot IP Checker”), then you must click “Create” and copy the 16-digit password that will appear.  
-     receivers: A comma-separated list of recipient email addresses for notifications.  
-     sites_list_link: A link to a Google Sheets file listing the GA4 property links for quick access when updating filters.  
+     **- receivers:** A comma-separated list of recipient email addresses for notifications.  
+     **- sites_list_link:** A link to a Google Sheets file listing the GA4 property links for quick access when updating filters.  
    
 5. **Google Sheets File**
    Prepare a Google Sheets document where each row represents a GA4 property you are managing. Include links to the GA4 Data Stream settings page, allowing you to quickly access and update IP filters across multiple
