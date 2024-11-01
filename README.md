@@ -34,6 +34,7 @@ This Python script checks for updates to the IP addresses used by Cookiebot’s 
      "receivers": "receiver.address.1@example.it, receiver.address.2@example.it",
      "sites_list_link": "https://docs.google.com/spreadsheets/d/xxxxxxxxx"
    }
+   ```
 
    where:
      address: The sender's email (Gmail).
